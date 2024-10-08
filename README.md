@@ -35,4 +35,3 @@ python app.py
 ```
 
 - Open the browser and go to the link that starts with http://
-
