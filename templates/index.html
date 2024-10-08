@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Flask Web App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Form App</h1>
+    <form action="/process" method="POST">
+        <label for="name">name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="age">age:</label>
+        <input type="number" id="age" name="age" required>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
